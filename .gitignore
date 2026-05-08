@@ -1,0 +1,82 @@
+i# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+
+# =========================
+# Virtual environments
+# =========================
+.venv/
+venv/
+env/
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# PhysioNet raw data (BIG - don't track)
+# =========================
+data/raw/physionet.org/
+
+# Keep folder structure
+!data/raw/.gitkeep
+
+# =========================
+# Intermediate + processed data
+# =========================
+data/interim/
+data/processed/
+
+# Keep structure
+!data/interim/.gitkeep
+!data/processed/.gitkeep
+
+# =========================
+# Model artifacts (if any)
+# =========================
+models/
+*.pkl
+*.joblib
+
+# =========================
+# Saved variables (your workflow)
+# =========================
+*.parquet
+
+# =========================
+# Figures
+# =========================
+
+# Ignore all figures by default
+*.png
+*.jpg
+*.jpeg
+
+# BUT keep final Medium figures
+!visualizations/final/
+!visualizations/final/*.png
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+
+# =========================
+# MacOS
+# =========================
+.DS_Store
+
+# =========================
+# IDE
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# Environment variables
+# =========================
+.env

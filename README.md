@@ -129,8 +129,7 @@ Understanding these limits is as important as improving model performance.
 
 Full write-up available on Medium:
 
-👉 [Add your link here]
-
+https://medium.com/@subhabrata.ganguli/is-sleep-really-made-of-discrete-stages-877e35635ec2
 ---
 
 ## Notes
